@@ -9,34 +9,21 @@
 'use strict';
 
 /*** Event Listeners ***/
-document.getElementById("zeros").addEventListener("click", zeros);
-document.getElementById("vertex").addEventListener("click", vertex);
 
 /*** Functions ***/
+function pic() {
+    document.getElementById("geo_output").textContent = ""
+}
+
+
 
 // Round to the nearest `decimals` number of decimals
 function round(value, decimals) {
-    return Math.round(value * 10**decimals) / 10**decimals;
+    let multiplier = 10**decimals;
+    return Math.round((value + Number.EPSILON) * multiplier) / multiplier;
 }
 
-// Round to the user's number of decimals
-function round_user(value) {
-    // Get the number of decimals from the "rounding" box
-    let d = Number(document.getElementById("rounding").value)
-
+// Get a random number from min to max
+function randInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-// Calculate the y-value of a parabola from standand form
-function y_quad(a, b, c, x) {
-
-}
-
-// Determine the zeros of a quadratic using user-inputs for a, b, and c
-function zeros() {
-}
-
-// Determine the vertex of a quadratic using user-inputs for a, b, and c
-function vertex() {
-
-}
-

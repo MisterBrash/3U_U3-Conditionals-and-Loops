@@ -1,26 +1,27 @@
 /*
   style.css
-  Feel free to change any of this CSS for your own purposes but don't waste time!
+  Feel free to change this CSS for your own purposes
 */
 
 /* Using font-size: larger to make things pop. Feel free to change. */
 body {
-    background-color:lightcyan;
-    margin: 20px;
-    font-size: larger;
+    background-color:#36013F;
+    color: white;
+    margin: 30px;
+    font-size: x-large;
 }
 
-/* Make the font a bit bigger on buttons and input boxes */
-button, input {
-    font-size: large;
+h1 {
+    margin-bottom: 0;
+    margin-left: 120px;
 }
 
-/* Align the geometry shapes with the title a little better */
-.heading_img {
-    vertical-align: auto;
+h6 {
+    margin-top: 10px;
+    margin-left: 120px;
 }
 
-/* Rounding and Quadratics input number boxes. Add class="short_number" to your input boxes */
-.short_number {
-    width: 50px;
+h3 {
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
