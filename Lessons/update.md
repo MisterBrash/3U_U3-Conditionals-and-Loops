@@ -6,14 +6,14 @@ As Mr. Brash updates the repository with lessons and sample code, you will need 
 
 2. If the repository says you are _behind_, select `Sync fork` and then `Update branch` (don't delete your commits!)  
 
-<img src="../images/commit_behind.png" height="90px" style="display: block;margin-left: auto;margin-right: auto;">
-<img src="../images/sync_fork.png" width="250px" style="display: block;margin-left: auto;margin-right: auto;">  
+<img src="./images/commit_behind.png" height="90px" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="./images/sync_fork.png" width="250px" style="display: block;margin-left: auto;margin-right: auto;">  
 
 <br>
 
 3. Come back to VSCode/Codespace. Go to the Source Control section, click on the kabob menu (three dots) and select `Pull`.  
 
-<img src="../images/pull.png" width="400px" style="display: block;margin-left: auto;margin-right: auto;">  
+<img src="./images/pull.png" width="400px" style="display: block;margin-left: auto;margin-right: auto;">  
 
 <br>
 
