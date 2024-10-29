@@ -1,23 +1,21 @@
 /**
- * Unit 2 Summative Task - Geometry Helper
+ * Unit 3 - Conditionals and Loops
  * ICS3 - Mr. Brash 🐿️
  * 
- * Read README.md and YOUR_Task.md 
+ * For this unit, Mr. Brash is trying something different. Each lesson will
+ * be in this one repository, separated in the Lessons folder.
+ * 
+ * If you run into Git or Github issues, call Mr. Brash over.
  **/ 
 
-// Follow the rules
+
 'use strict';
 
 /*** Event Listeners ***/
 
 /*** Functions ***/
-function pic() {
-    document.getElementById("geo_output").textContent = ""
-}
 
-
-
-// Round to the nearest `decimals` number of decimals
+// A very accurate rounding function
 function round(value, decimals) {
     let multiplier = 10**decimals;
     return Math.round((value + Number.EPSILON) * multiplier) / multiplier;

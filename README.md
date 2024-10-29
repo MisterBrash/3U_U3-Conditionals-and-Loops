@@ -2,6 +2,14 @@
 
 ##### ICS3 - Mr. Brash 🐿️
 
+---
+
+If you run into a merge conflict or an issue synchronizing with Github _try_ the following:
+
+1. Open a terminal window by going to the menu and selecting `Terminal > New Terminal` ( the keyboard shortcut is CTRL+SHIFT+` )
+
+---
+
 So far we have the ability to chunk our code into **functions**, create webpages using **HTML**, modify the webpage using **JavaScript**, and use the **dev console** for printing and debugging.
 
 #### 🤔 What if we need our code to _decide_ something?
