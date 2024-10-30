@@ -7,7 +7,7 @@
 <table>
 <tr>
 <th>
-In this Lesson:
+3.1 - In this Lesson:
 </th>
 <th>
 Unit 3 - Conditionals & Loops
@@ -19,7 +19,7 @@ Unit 3 - Conditionals & Loops
 <li><a href="#lesson">If-Statement Syntax</a></li>
 <li><a href="#examples">Examples</a></li>
 <li><a href="#logical-operators">Logical Operators</a></li>
-<li><a href="">Practice Time!</a></li>
+<li><a href="#practice-time">Practice Time!</a></li>
 <ul>
 <li><a href="#part-1">Part 1</a></li>
 <li><a href="#part-2">Part 2</a></li>
@@ -98,7 +98,7 @@ function check_game(game_running, lives) {
         display("Game Over!");
 
         // Stop the game
-        game_running == false;
+        game_running = false;
 
         // Return -1 because the game is over
         return -1;
