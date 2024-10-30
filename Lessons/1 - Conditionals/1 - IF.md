@@ -65,7 +65,7 @@ function check_game(game_running, lives) {
         display("Game Over!");
 
         // Stop the game
-        game_running == false;
+        game_running = false;
 
         // Return -1 because the game is over
         return -1;
