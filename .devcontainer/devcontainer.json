@@ -8,11 +8,6 @@
 				"CS50.extension-uninstaller",
 				"ritwickdey.LiveServer"
 			]
-		},
-		"codespaces": {
-		    "openFiles": [
-		      "README.md"
-		    ]
 		}
 	}
 }
