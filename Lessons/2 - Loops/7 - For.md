@@ -55,9 +55,9 @@ _Many_ programmers forget to modify the counting variable, causing an infinite l
 
 <div style="text-align:center;">
 
-If you know you'll be _counting_ you could use the **[for loop](https://cs.brash.ca/unit-3/loops/for-loop)**. 
+If you know you'll be _counting_ you could use the **[for loop](https://www.w3schools.com/js/js_loop_for.asp)**. 
 
-[<img src="../images/for.png" width="450px">](https://cs.brash.ca/unit-3/loops/for-loop)
+[<img src="../images/for.png" width="450px">](https://www.w3schools.com/js/js_loop_for.asp)
 
 </div>
 
